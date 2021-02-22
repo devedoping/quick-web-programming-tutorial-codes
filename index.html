@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Page</title>
+    <link rel="stylesheet" href="plugins/circle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <section id="top-section">
+        <div class="container">
+            <header class="clearfix">
+                <div class="container">
+                    <a href="/" id="header-logo"></a>
+                    <div id="menu-icon" onclick="toggleMenu(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <nav>
+                        <ul id="header-list">
+                            <li>
+                                <a href="#top-section" class="active">Home</a>
+                            </li>
+                            <li>
+                                <a href="#service-section">About</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio-section" id="nav-work">Work</a>
+                            </li>
+                            <li>
+                                <a href="#blog">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div id="mobile-menu">
+                        <ul>
+                            <li>
+                                <a href="#top-section" class="active">Home</a>
+                            </li>
+                            <li>
+                                <a href="#service-section">About</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio-section">Work</a>
+                            </li>
+                            <li>
+                                <a href="#blog">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <h1>Hi there! We are the new kids on the block<br/>
+                and we build awesome websites and mobile apps.</h1>
+
+            <button>WORK WITH US!</button>
+        </div>
+    </section>
+
+    <section id="service-section">
+        <div class="container">
+            <h2>SERVICES WE PROVIDE</h2>
+            <p id="service-section-desc" class="section-description">We are working with both individuals and businesses from all over the globe
+                to create awesome websites and applications.
+            </p>
+
+            <div id="service-box-container" class="clearfix">
+
+                <div class="service-box">
+                    <img src="img/flag.png" alt="flag image"/>
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                </div>
+
+                <div class="service-box">
+                    <img src="img/pencil.png" alt="flag image"/>
+                    <h3>Design</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem  </p>
+                </div>
+
+                <div class="service-box">
+                    <img src="img/gears.png" alt="flag image"/>
+                    <h3>Development</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+                </div>
+
+                <div class="service-box">
+                    <img src="img/rocket.png" alt="flag image"/>
+                    <h3>ROCKET SCIENCE</h3>
+                    <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="team-section">
+        <div class="container">
+            <h2>MEET OUR BEAUTIFUL TEAM</h2>
+            <p id="team-section-desc">We are a small team of designers and developers, who help brands with big ideas.</p>
+
+            <div id="team-box-container" class="clearfix">
+
+                <div class="team-box">
+                    <img class="team-box-img" src="img/team1.jpg" alt="teammate 1" />
+                    <h4 class="team-box-name">ANNE HATHAWAY</h4>
+                    <label class="team-box-job">CEO / Marketing Guru</label>
+                    <p class="team-box-desc">Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                    <ul class="team-box-social clearfix">
+                        <li><a class="team-box-social-icon team-box-social-fb" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-tw" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-in" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-em" href=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="team-box">
+                    <img class="team-box-img" src="img/team2.jpg" alt="teammate 1" />
+                    <h4 class="team-box-name">Kate Upton</h4>
+                    <label class="team-box-job">Creative Director</label>
+                    <p class="team-box-desc">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+                    <ul class="team-box-social clearfix mini">
+                        <li><a class="team-box-social-icon team-box-social-tw" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-in" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-em" href=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="team-box">
+                    <img class="team-box-img" src="img/team3.jpg" alt="teammate 1" />
+                    <h4 class="team-box-name">Olivia Wilde</h4>
+                    <label class="team-box-job">Lead Designer</label>
+                    <p class="team-box-desc">Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                    <ul class="team-box-social clearfix">
+                        <li><a class="team-box-social-icon team-box-social-fb" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-tw" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-in" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-em" href=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="team-box">
+                    <img class="team-box-img" src="img/team4.jpg" alt="teammate 1" />
+                    <h4 class="team-box-name">Ashley Greene</h4>
+                    <label class="team-box-job">SEO / Developer</label>
+                    <p class="team-box-desc">Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                    <ul class="team-box-social clearfix mini">
+                        <li><a class="team-box-social-icon team-box-social-fb" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-tw" href=""></a></li>
+                        <li><a class="team-box-social-icon team-box-social-em" href=""></a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skill-section">
+        <div class="container">
+            <h2>WE GOT SKILLS!</h2>
+            <p id="skill-section-desc" class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div id="percent-container" class="clearfix">
+
+                <div class="percent-box">
+                    <div class="c100 p90 blue">
+                        <span>90<i>%</i></span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h5>Web Design</h5>
+                </div>
+
+                <div class="percent-box">
+                    <div class="c100 p75 red">
+                        <span>75<i>%</i></span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h5>HTML / CSS</h5>
+                </div>
+
+                <div class="percent-box">
+                    <div class="c100 p70 green">
+                        <span>70<i>%</i></span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h5>GRAPHIC DESIGN</h5>
+                </div>
+
+                <div class="percent-box">
+                    <div class="c100 p85 orange">
+                        <span>85<i>%</i></span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h5>UI / UX</h5>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio-section">
+        <div class="container">
+            <h2>OUR PORTFOLIO</h2>
+            <p id="portfolio-section-desc" class="section-description">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+                consectetur, adipisci velit, sed quia non numquam</p>
+            <ul id="portfolio-filter" class="clearfix">
+                <li>
+                    <a href="#" class="portfolio-filter active" data-type="all">ALL</a>
+                </li>
+                <li>
+                    <a href="#" class="portfolio-filter" data-type="web">WEB</a>
+                </li>
+                <li>
+                    <a href="#" class="portfolio-filter" data-type="app">APPS</a>
+                </li>
+                <li>
+                    <a href="#" class="portfolio-filter" data-type="icon">ICONS</a>
+                </li>
+            </ul>
+
+            <div id="portfolio-container" class="clearfix">
+
+                <div class="portfolio-box portfolio-box-web">
+                    <img src="img/portfolio-1.png" alt="portfolio num #1"/>
+                    <p>Isometric Perspective Mock-Up</p>
+                </div>
+
+                <div class="portfolio-box portfolio-box-app">
+                    <img src="img/portfolio-2.png" alt="portfolio num #2"/>
+                    <p>Time Zone App UI</p>
+                </div>
+
+                <div class="portfolio-box portfolio-box-app">
+                    <img src="img/portfolio-3.png" alt="portfolio num #3"/>
+                    <p>Viro Media Players UI</p>
+                </div>
+
+                <div class="portfolio-box portfolio-box-icon">
+                    <img src="img/portfolio-4.png" alt="portfolio num #4"/>
+                    <p>Blog / Magazine Flat UI Kit</p>
+                </div>
+
+                <!-- load more content -->
+
+                <div class="portfolio-box portfolio-box-web hidden">
+                    <img src="img/portfolio-1.png" alt="portfolio num #1"/>
+                    <p>Load More Mock-Up</p>
+                </div>
+
+                <div class="portfolio-box portfolio-box-app hidden">
+                    <img src="img/portfolio-2.png" alt="portfolio num #2"/>
+                    <p>Load More App UI</p>
+                </div>
+
+                <div class="portfolio-box portfolio-box-app hidden">
+                    <img src="img/portfolio-3.png" alt="portfolio num #3"/>
+                    <p>Load More Players UI</p>
+                </div>
+
+                <div class="portfolio-box portfolio-box-icon hidden">
+                    <img src="img/portfolio-4.png" alt="portfolio num #4"/>
+                    <p>Load More Flat UI Kit</p>
+                </div>
+
+            </div>
+
+            <button id="green-btn">LOAD MORE PROJECTS</button>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <div class="container">
+            <h2>GET IN TOUCH</h2>
+            <p id="contact-section-desc" class="section-description">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
+            </p>
+
+            <br/>
+            <br/>
+
+            <form id="my-form" method="post" action="https://google.com">
+                <div class="form-row clearfix">
+                    <input type="text" placeholder="Your Name" id="input-name" name="q" />
+                    <input type="email" placeholder="Your Email" id="input-email"  name="email" />
+                </div>
+                <div class="form-row clearfix">
+                    <textarea placeholder="Your Message" name="message" id="input-message" ></textarea>
+                </div>
+                <input type="submit" id="blue-btn" value="SEND MESSAGE"/>
+            </form>
+
+            <br/>
+            <br/>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <ul class="clearfix">
+                <li>
+                    <a href="#" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Google+</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Behance</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Dribbble</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">GitHub</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="functions.js"></script>
+</body>
+</html>
